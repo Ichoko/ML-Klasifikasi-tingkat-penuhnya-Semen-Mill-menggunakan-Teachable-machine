@@ -35,6 +35,7 @@ def run(model: str, max_results: int, score_threshold: float,
     num_threads: Number of CPU threads to run the model.
     enable_edgetpu: Whether to run the model on EdgeTPU.
   """
+  
 
   if (overlapping_factor <= 0) or (overlapping_factor >= 1.0):
     raise ValueError('Overlapping factor must be between 0 and 1.')

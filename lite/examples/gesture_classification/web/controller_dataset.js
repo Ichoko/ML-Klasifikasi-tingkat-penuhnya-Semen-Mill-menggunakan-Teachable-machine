@@ -22,7 +22,6 @@ class ControllerDataset {
   constructor() {
     this.labels = []
   }
-
   /**
    * Adds an example to the controller dataset.
    * @param {Tensor} example A tensor representing the example. It can be an
